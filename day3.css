@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgray;
+    border: 2px solid;
+    text-align: right;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 12px;
+    text-align: right;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
