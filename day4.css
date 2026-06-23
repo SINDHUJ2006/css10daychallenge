@@ -1,0 +1,13 @@
+
+.galary{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.box{
+    height: 250px;
+    background-color:lightviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
