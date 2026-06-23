@@ -1,13 +1,25 @@
+body{
+    font-family: cursive;
+    background-color: lightgray; 
+    align-items: center;   
+}
+
+h2{
+    text-align: center;
+    margin-top: 70px;
+}
 
 .galary{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-.box{
-    height: 250px;
-    background-color:lightviolet;
-    display: flex;
+    grid-template-columns: repeat(3, 220px);
+    gap: 15px;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 10px;
+}
+
+.galary img{
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
 }
