@@ -1,0 +1,45 @@
+body{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: bisque;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+    justify-content: center;
+    align-content: center;
+
+    gap: 15px;
+    height: 100vh;
+}
+
+.image{
+    grid-column: 1 / 4;
+    justify-self: center;
+}
+
+.image img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 40px;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button 1 */
+.btn-hover:hover{
+    background-color: lightsalmon;
+}
+
+/* Button 2 */
+.btn-enlarge:active{
+    transform: scale(1.5);
+}
+
+/* Button 3 */
+.btn-tilt:active{
+    transform: rotate(15deg);
+}

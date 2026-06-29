@@ -12,14 +12,13 @@ h2{
 .galary{
     display: grid;
     grid-template-columns: repeat(3, 220px);
-    gap: 15px;
+    gap: 30px;
     justify-content: center;
     margin-bottom: 10px;
 }
 
 .galary img{
-    width: 200px;
+    width: 240px;
     height: 220px;
-    object-fit: cover;
     border-radius: 8px;
 }
