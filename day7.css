@@ -1,0 +1,24 @@
+h2{
+    font-family: cursive;
+    font-size: 80px;
+    color: darkgreen;
+    border-bottom: 5px solid;
+}
+ul{
+    list-style: none;
+    font-size: 45px;
+    margin-left: 50px;
+}
+li::before{
+    content: "★";
+    color: black;
+}
+li:hover{
+    color: lightsteelblue;
+}
+body{
+    background-color: aquamarine;
+}
+li:hover::before{
+    color: lightsteelblue;
+}
