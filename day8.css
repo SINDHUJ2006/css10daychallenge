@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.text{
+    flex: 1;
+}
+.image{
+    flex: 1;
+    text-align: center;
+}
+.image img{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .image img{
+        max-width: 250px;
+    }
+
+}
