@@ -24,5 +24,6 @@ day9:
 day10:
 <img width="1917" height="977" alt="image" src="https://github.com/user-attachments/assets/58dd3c2b-362d-4d0b-a17b-f70e6e9c116a" />
 <img width="727" height="682" alt="image" src="https://github.com/user-attachments/assets/231f5509-8d12-448d-ae6a-f223333635e9" />
+file:///C:/Users/Sindhu/Desktop/css10day/day10.html
 
 
