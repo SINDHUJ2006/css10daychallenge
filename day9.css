@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+.container{
+    position: relative;
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+.loader{
+    width: 220px;
+    height: 220px;
+    border: 10px solid lightgray;
+    border-top: 10px solid deeppink;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+.labubu{
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes bounce{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-80px);
+    }
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
